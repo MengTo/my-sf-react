@@ -18,7 +18,7 @@ const Layout = ({ children, data }) => (
     <Header />
     {children()}
     <Footer links={data.allContentfulLinks.edges}>
-      Copyright 2018 <a href="/privacy">Privacy</a>
+      Copyright 2018 <a href="/privacy">Privacy</a> - <a href="/terms">Terms</a>
     </Footer>
   </div>
 )
